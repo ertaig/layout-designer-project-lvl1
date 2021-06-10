@@ -1,0 +1,133 @@
+/** CSS STYLE **/
+
+@font-face {
+	font-family: 'Neucha';
+	src: url("../fonts/Neucha-Regular.ttf");
+	font-weight: normal;
+	
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url("../fonts/OpenSans-Regular.ttf");
+	font-weight: normal;
+	
+}
+
+:root {
+	--white: #fff;
+	--trwhite: #d7ccc0 ;
+	--light: #f5f4f0 ;
+	--main: #fe8a02;
+ 	--main dark: #42413c;
+	--dark: #2a2626;
+	--trdark: #908d8b;
+	--brown: #b09a81;
+	--blue: #1085c5;
+}
+
+body { 
+
+font-family: 'Open Sans';
+font-size: 16px;
+line-height: 1.6em;
+color: var(--dark);
+
+
+}
+
+	header,
+	main,
+	footer {
+		 
+	}
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Neucha';
+}
+
+h1{
+	line-height: 1.2em;
+	font-size: 72px;
+}
+h2{
+	line-height: 1.2em;
+	font-size: 60px;
+}
+h3{
+	line-height: 1.2em;
+	font-size: 34px;
+}
+
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+		width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    margin: auto;
+    z-index: 2; 
+		}
+
+.section:before {
+   content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1140px;
+    height: 996px;
+    z-index: 1;
+    opacity: 10%;
+   background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.header-image{
+position: absolute;
+top: 55px;
+right: -270px;
+
+}
+header span{
+	color:  var(--main);
+}
+.header-row{
+	display: flex;
+	margin-top: 150px;
+	
+}
+.header-text{
+	width: 540px;
+	
+}
+.mr-30{
+	margin-right:  30px;
+}
+
+.header-button {
+	display: inline-block;
+	width: 148px;
+	height: 49px;
+	background: var(--main);
+	margin-top: 40px;
+	
+
+}
+.header-button a{
+	display: inline-block;
+	color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 24px;
+}
