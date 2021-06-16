@@ -68,6 +68,7 @@ h2{
 h3{
 	line-height: 1.2em;
 	font-size: 34px;
+	color:var(--main) ;
 }
 
 
@@ -142,6 +143,9 @@ span{
   text-decoration: none;
   padding: 12px 24px;
 }
+.header-button: hover{
+	background: #EA7600;
+}
 
 .video{
 width: 919px;
@@ -163,4 +167,45 @@ filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 	bottom: 84px;
 	z-index: -1;
 	
+}
+.navigation{
+	background-color: var(--maindark);
+	margin-top: -100px;
+
+}
+
+.navigation-row{
+  display: flex;
+ flex-wrap: wrap;
+
+}
+.navigation-text{
+	flex: 1 1 25%;
+
+
+}
+.title{
+	font-size: 52px;
+	font-family: 'Neucha', sans-serif;
+	line-height: 62.4px;
+}
+.fs-64{
+	font-size: 64px;
+	font-family: 'Neucha', sans-serif;
+	line-height: 1px;
+	padding-bottom: 40px;
+	color: var(--maindark);
+}
+.bg-color{
+	background-color: var(--light) ;
+}
+.mr-30{
+	margin-right: 30px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.ptl-24{
+	padding-top: 24px;
+	padding-left: 24px;
 }
