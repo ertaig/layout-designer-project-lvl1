@@ -3,7 +3,8 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
-  font-weight: inherit; }
+  font-weight: inherit; 
+}
 
 /*--------------------*/
 /** CSS STYLE **/
@@ -12,13 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Neucha';
 	src: url("../fonts/Neucha-Regular.ttf");
 	font-weight: normal;
-	
 }
 @font-face {
 	font-family: 'Open Sans';
 	src: url("../fonts/OpenSans-Regular.ttf");
 	font-weight: normal;
-	
 }
 
 :root {
@@ -33,53 +32,37 @@ h1, h2, h3, h4, h5, h6 {
 	--brown: #b09a81;
 	--blue: #1085c5;
 }
-
 body { 
-width: 100%;
-font-family: 'Open Sans', sans-serif;
-font-size: 16px;
-line-height: 1.6em;
-color: var(--dark);
-margin: 0px;
-
-
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+  margin: 0px;
 }
-
-	header,
-	main,
-	footer {
-		 
-	}
-
-
 h1,
 h2,
 h3 {
 	font-family: 'Neucha', sans-serif;
 }
-
-h1{
+h1 {
 	line-height: 1.2em;
 	font-size: 72px;
 }
-h2{
+h2 {
 	line-height: 1.2em;
 	font-size: 60px;
 }
-h3{
+h3 {
 	line-height: 1.2em;
 	font-size: 34px;
 	color:var(--main) ;
 }
-
-h4{
+h4 {
 	font-size: 14px;
 	color: var(--white);
-
 }
-
 .container {
-  
   width: 1110px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -87,17 +70,15 @@ h4{
   margin: auto;
   z-index: 2; 
 }
-
-.section{
+.section {
 	position: relative;
 	overflow: hidden;
 }
-
 .section:before {
- content: ' ';
- display: block;
- position: absolute;
- left: 0;
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
   top: 0;
   width: 100%;
   height: 950px;
@@ -106,42 +87,35 @@ h4{
   background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.backround-light{
-background: var(--light);
+.backround-light {
+  background: var(--light);
 }
 .backround-brown{
 	background: var(--brown);
 }
-
-
-
-.header-image{
-position: absolute;
-top: 55px;
-right: -270px;
-
+.header-image {
+  position: absolute;
+  top: 55px;
+  right: -270px;
 }
-span{
+span {
 	color:  var(--main);
 }
-.header-row{
+.header-row {
 	display: flex;
-	margin-top: 150px;
-	
+	margin-top: 150px;	
 }
-.header-text{
+.header-text {
 	width: 540px;
-	
 }
-.mr-30{
+.mr-30 {
 	margin-right:  30px;
 }
-.mb-30{
+.mb-30 {
 	margin-bottom: 30px;
 }
-.ta-center{
+.ta-center {
 	text-align: center;
 }
 .header-button {
@@ -151,29 +125,28 @@ span{
 	background: var(--main);
 	margin-top: 40px;
 }
-.header-button a{
+.header-button a {
 	display: inline-block;
 	color: var(--white);
   font-weight: bold;
   text-decoration: none;
   padding: 12px 24px;
 }
-.header-button: hover{
+.header-button: hover {
 	background: #EA7600;
 }
-
 .video{
-width: 919px;
-height: 569px;
-display: block;
-margin: 0px auto;
-filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  width: 919px;
+  height: 569px;
+  display: block;
+  margin: 0px auto;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.mt-100{
+.mt-100 {
 	margin-top: 100px;
 }
-.block{
+.block {
 	width: 100%;
 	height: 100px;
 	background-color:var(--maindark) ;
@@ -183,145 +156,190 @@ filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 	z-index: -1;
 	
 }
-.navigation{
+.navigation {
 	background-color: var(--maindark);
 	margin-top: -100px;
-
 }
 
-.navigation-row{
+.navigation-row {
   display: flex;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
-.navigation-text{
+.navigation-text {
 	flex: 1 1 25%;
 }
-.about{
+.about {
 	font-size: 52px;
 	font-family: 'Neucha', sans-serif;
 	line-height: 62px;
 }
-.fs-64{
+.fs-64 {
 	font-size: 64px;
 	font-family: 'Neucha', sans-serif;
 	line-height: 1px;
 	padding-bottom: 40px;
 	color: var(--maindark);
 }
-.bg-color{
+.bg-color {
 	background-color: var(--light) ;
 }
 
-.mt-20{
+.mt-20 {
 	margin-top: 20px;
 }
-.p-24{
+.p-24 {
 	padding: 24px;
-	
 }
-.mt-10{
+.mt-10 {
 	margin-top: 10px;
 }
-.display{
+.display {
 	display: block;
 }
-.td{
+.td {
 	text-decoration: none;
 }
-.tc{
+.tc {
 	color: var(--dark);
 }
 .animation:hover {
 	background-color: var(--main);
 	color: var(--white);
-	}
+}
 	
-	.animation:hover p  {
+.animation:hover p {
 	background-color: var(--main);
 	color: var(--white);
-	}
-	.animation:hover h3  {
+}
+.animation:hover h3 {
 	background-color: var(--main);
 	color: var(--white);
-	}
-	
-.ikea-row{
+}
+.ikea-row {
 	display: flex;
-
 }
-}
-.ff-24{
+.ff-24 {
 	font-family: 'Neucha', sans-serif;
 	font-size: 24px;
 }
-.fc{
+.fc {
 	color: var(--trdark);
-	
 }
-.ff-34{
+.ff-34 {
 	font-family: 'Neucha', sans-serif;
 	font-size: 34px;
 	line-height: 41px;
 }
-.ikea-image{
+.ikea-image {
 	vertical-align: middle;
 }
-.mt-30{
+.mt-30 {
 	margin-top: -30px;
 	margin-bottom: 30px;
 }
-.backround-dark{
+.backround-dark {
 	background-color: var(--brown);
 	width: 1110px;
 	height: 26px;
 }
-.mt-100{
+.mt-100 {
 	margin-top: 100px;
 }
-.mb-20{
+.mb-20 {
 	margin-bottom: 20px;
 }
-.pl-10{
+.pl-10 {
 	padding-left: 10px;
 }
 
-.fc-white50{
+.fc-white50 {
 	color: var(--white50);
 }
-.fc-white{
+.fc-white {
 	color: var(--white);
 }
-.optimization-row{
+.optimization-row {
 	display: flex;
 }
-.image-opimization{
+.image-opimization {
 	vertical-align: middle;
 }
-.backround-white{
+.backround-white {
 	background-color: var(--white);
 }
-.fc-brown{
+.fc-brown {
 	color: var(--brown) ;
 }
-.flex-b50{
+.flex-b50 {
 	flex-basis: 50%;
-	}
-.novelty-row{
-	display: flex;
-	}
-.image-novelty{
-	vertical-align: middle;
 }
-.hyperbolic-row{
+.novelty-row {
 	display: flex;
 }
-.image-hyperbolic{
+.image-novelty {
 	vertical-align: middle;
 }
-.errors-row{
+.hyperbolic-row {
 	display: flex;
 }
-.image-errors{
+.image-hyperbolic {
 	vertical-align: middle;
 }
+.errors-row {
+	display: flex;
+}
+.image-errors {
+	vertical-align: middle;
+}
+.footer-row {
+	display: flex;
+	background-color: var(--maindark);
+	height: 190px;
+}
+.pl-55 {
+	padding-left: 55px;
+}
+.center {
+	align-self: center;
+}
+.fs-18 {
+	font-size: 18px;
+}
+.fs-12 {
+	font-size: 12px;
+}
+.form-email {
+	height: 50px;
+	width: 420px;
+}
+
+button {
+  width: 70px;
+  height: 57px;
+  position: relative;
+  top: -4px;
+  right: 5px;
+  background: var(--main);
+}
+button::before {
+  content: "";
+  background: url(../img/send.svg);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 16px;
+  left: 17px;
+}
+button:hover {
+  background: #ea7600;
+}
+.mb-8 {
+	margin-bottom: 8px;
+}
+.footer-text {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 14px;
+}
+
