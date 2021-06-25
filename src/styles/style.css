@@ -98,9 +98,15 @@ h4 {
   position: absolute;
   top: 55px;
   right: -270px;
+  height: 525px;
+  z-index: 100;
+
 }
 span {
 	color:  var(--main);
+}
+.header-title {
+	z-index: 200;
 }
 .header-row {
 	display: flex;
@@ -123,7 +129,7 @@ span {
 	width: 148px;
 	height: 49px;
 	background: var(--main);
-	margin-top: 40px;
+	margin-top: 35px;
 }
 .header-button a {
 	display: inline-block;
