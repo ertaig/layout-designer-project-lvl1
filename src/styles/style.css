@@ -169,16 +169,24 @@ span {
 }
 
 .navigation-row {
+	position: relative;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .navigation-text {
-	flex: 1 1 25%;
+	width: 350px;
+  margin: 11px 8px 11px 8px;
+}
+.navigation-link{
+	width: 302px;
+    margin: 11px 8px 11px 8px;
+    padding: 24px 24px 40px 24px;
 }
 .about {
 	font-size: 52px;
 	font-family: 'Neucha', sans-serif;
-	line-height: 62px;
+	line-height: 62.4px;
 }
 .fs-64 {
 	font-size: 64px;
@@ -187,15 +195,21 @@ span {
 	padding-bottom: 40px;
 	color: var(--maindark);
 }
+.mt-16{
+	margin-top: 16px;
+}
+.mt-12{
+	margin-top: 12px;
+}
 .bg-color {
 	background-color: var(--light) ;
+}
+.pr-75{
+	padding-right: 75px;
 }
 
 .mt-20 {
 	margin-top: 20px;
-}
-.p-24 {
-	padding: 24px;
 }
 .mt-10 {
 	margin-top: 10px;
