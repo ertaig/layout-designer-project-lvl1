@@ -178,12 +178,12 @@ span {
 .navigation-text {
 	width: 350px;
 	height: 323px;
-  margin: 0px 8px 0px 20px;
+  margin-right: 30px;
 }
 .navigation-link{
 	width: 302px;
 	height: 323px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 24px 0px 24px;
 }
 .about {
 	font-size: 52px;
