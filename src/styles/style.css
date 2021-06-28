@@ -182,7 +182,6 @@ span {
 }
 .navigation-link{
 	width: 302px;
-	height: 323px;
   padding: 24px 24px 0px 24px;
 }
 .about {
@@ -193,7 +192,7 @@ span {
 .fs-64 {
 	font-size: 64px;
 	font-family: 'Neucha', sans-serif;
-	line-height: 70,5px;
+	line-height: 70.5px;
 	padding-bottom: 40px;
 	color: var(--maindark);
 }
