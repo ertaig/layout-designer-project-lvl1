@@ -1,23 +1,28 @@
 
 * {
-	margin: 0;
+  margin: 0;
   padding: 0;
   border: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit; 
 }
 
 @font-face {
-	font-weight: normal;
+  font-weight: normal;
   font-family: 'Neucha';
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
-	font-weight: normal;
+  font-weight: normal;
   font-family: 'Open Sans';
   src: url("../fonts/OpenSans-Regular.ttf");
 }
@@ -61,13 +66,13 @@ h2 {
 }
 
 h3 {
-	color: var(--main);
+  color: var(--main);
   font-size: 34px;
   line-height: 1.2em;
 }
 
 h4 {
-	color: var(--white);
+  color: var(--white);
   font-size: 14px;
   line-height: 16.8px;
 }
@@ -137,7 +142,7 @@ span {
 .header-row {
   display: flex;
 
-  margin-top: 200px;	
+  margin-top: 200px;
 }
 
 .header-text {
@@ -237,8 +242,8 @@ span {
 .fs-64 {
   padding-bottom: 40px;
 
-  font-size: 64px;
   color: var(--maindark);
+  font-size: 64px;
   font-family: 'Neucha', sans-serif;
   line-height: 70.5px;
 }
