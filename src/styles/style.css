@@ -60,6 +60,7 @@ h3 {
 }
 h4 {
 	font-size: 14px;
+	line-height: 16.8px;
 	color: var(--white);
 }
 .container {
@@ -176,12 +177,13 @@ span {
 }
 .navigation-text {
 	width: 350px;
-  margin: 11px 8px 11px 8px;
+	height: 323px;
+  margin: 0px 8px 0px 20px;
 }
 .navigation-link{
 	width: 302px;
-    margin: 11px 8px 11px 8px;
-    padding: 24px 24px 40px 24px;
+	height: 323px;
+  padding: 24px 24px 24px 24px;
 }
 .about {
 	font-size: 52px;
@@ -243,17 +245,17 @@ span {
 .ff-24 {
 	font-family: 'Neucha', sans-serif;
 	font-size: 24px;
+	line-height: 28.8px;
 }
 .fc {
 	color: var(--trdark);
 }
-.ff-34 {
-	font-family: 'Neucha', sans-serif;
-	font-size: 34px;
-	line-height: 41px;
+.fc-dark{
+	color: var(--dark);
 }
 .ikea-image {
 	vertical-align: middle;
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 .mt-30 {
 	margin-bottom: 30px;
@@ -271,6 +273,8 @@ span {
 }
 .pl-10 {
 	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .fc-white50 {
@@ -284,6 +288,8 @@ span {
 }
 .image-opimization {
 	vertical-align: middle;
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+
 }
 .backround-white {
 	background-color: var(--white);
@@ -299,18 +305,21 @@ span {
 }
 .image-novelty {
 	vertical-align: middle;
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 .hyperbolic-row {
 	display: flex;
 }
 .image-hyperbolic {
 	vertical-align: middle;
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 .errors-row {
 	display: flex;
 }
 .image-errors {
 	vertical-align: middle;
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 .footer-row {
 	display: flex;
