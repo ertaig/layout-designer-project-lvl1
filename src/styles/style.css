@@ -11,8 +11,8 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: inherit;
   font-size: inherit;
-  font-weight: inherit; 
 }
 
 @font-face {
@@ -323,7 +323,7 @@ span {
 .ikea-image {
   vertical-align: middle;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .mt-30 {
@@ -362,7 +362,7 @@ span {
 .image-optimization {
   vertical-align: middle;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .backround-white {
@@ -384,7 +384,7 @@ span {
 .image-novelty {
   vertical-align: middle;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .hyperbolic-row {
@@ -394,7 +394,7 @@ span {
 .image-hyperbolic {
   vertical-align: middle;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .errors-row {
@@ -404,7 +404,7 @@ span {
 .image-errors {
   vertical-align: middle;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .footer-row {
