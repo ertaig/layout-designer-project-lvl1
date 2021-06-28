@@ -1,31 +1,31 @@
 
 * {
+	margin: 0;
   padding: 0;
-  margin: 0;
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
   font-size: inherit;
   font-weight: inherit; 
 }
 
 @font-face {
+	font-weight: normal;
   font-family: 'Neucha';
-  font-weight: normal;
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
+	font-weight: normal;
   font-family: 'Open Sans';
-  font-weight: normal;
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 :root {
   --white: #fff;
   --white50: #d7ccc0;
-  --light: #f5f4f0 ;
+  --light: #f5f4f0;
   --main: #fe8a02;
   --maindark: #42413c;
   --dark: #2a2626;
@@ -34,13 +34,13 @@ h1, h2, h3, h4, h5, h6 {
   --blue: #1085c5;
 }
 
-body { 
+body {
   width: 100%;
-  margin: 0px;
+  margin: 0;
 
+  color: var(--dark);
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  color: var(--dark);
   line-height: 1.6em;
 }
 
@@ -61,14 +61,14 @@ h2 {
 }
 
 h3 {
+	color: var(--main);
   font-size: 34px;
-  color: var(--main);
   line-height: 1.2em;
 }
 
 h4 {
+	color: var(--white);
   font-size: 14px;
-  color: var(--white);
   line-height: 16.8px;
 }
 
@@ -77,17 +77,18 @@ h4 {
   z-index: 2;
 
   width: 1110px;
+  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin: 0 auto;
 }
 
 .section {
   position: relative;
+
   overflow: hidden;
 }
 
-.section:before {
+.section::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -97,12 +98,12 @@ h4 {
   width: 100%;
   height: 950px;
 
-  content: ' ';
-
   background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
+
+  content: ' ';
 }
 
 .backround-light {
@@ -135,6 +136,7 @@ span {
 
 .header-row {
   display: flex;
+
   margin-top: 200px;	
 }
 
@@ -223,7 +225,7 @@ span {
 
 .navigation-link {
   width: 302px;
-  padding: 24px 24px 0px 24px;
+  padding: 24px 24px 0 24px;
 }
 
 .about {
@@ -236,10 +238,9 @@ span {
   padding-bottom: 40px;
 
   font-size: 64px;
-  font-family: 'Neucha', sans-serif;
   color: var(--maindark);
+  font-family: 'Neucha', sans-serif;
   line-height: 70.5px;
-		
 }
 
 .mt-16 {
@@ -251,7 +252,7 @@ span {
 }
 
 .bg-color {
-  background-color: var(--light) ;
+  background-color: var(--light);
 }
 
 .pr-75 {
@@ -283,7 +284,7 @@ span {
 
   background-color: var(--main);
 }
-	
+
 .animation:hover p {
   color: var(--white);
 
@@ -339,7 +340,6 @@ span {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-		
 }
 
 .fc-white50 {
@@ -437,19 +437,19 @@ button {
 
   width: 70px;
   height: 50px;
-  	
+
   background: var(--main);
 }
 
 button::before {
-  background: url(../img/send.svg);
-
   position: absolute;
   top: 16px;
   left: 17px;
 
   width: 25px;
   height: 25px;
+
+  background: url(../img/send.svg);
 
   content: "";
 }
@@ -463,7 +463,7 @@ button:hover {
 }
 
 .footer-text {
-	margin-top: 60px;
+  margin-top: 60px;
 
   font-size: 14px;
   text-align: center;
